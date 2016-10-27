@@ -272,7 +272,7 @@
     CGFloat numToScroll = index - _scrollOffset;
     CGFloat passPagesWidth = numToScroll * self.scrollView.bounds.size.width;
     _endOffset = self.scrollView.contentOffset.x + passPagesWidth;
-    
+    //
     [self startAnimation];
    
 }
